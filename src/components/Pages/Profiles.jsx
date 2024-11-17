@@ -2,10 +2,16 @@ import { ArrowRight2, Instagram } from 'iconsax-react'
 import Picture from '../../assets/avatar-2.svg'
 import { Github, Linkedin} from 'lucide-react'
 import SvgProfile from '../svg/SvgProfile'
+import Aos from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 const Profiles = () => {
+  useEffect(() => {
+    Aos.init();
+  }, [])
   return (
-    <section className="flex justify-center items-center relative min-h-screen">
+    <section className="flex justify-center items-center relative min-h-screen" id='#profile'>
       <div className='max-w-[540px] flex flex-col justify-center items-center'>
         <img src={Picture} alt='Profile Picture' className='mb-2'/>
         <h1 className='font-extrabold text-2xl text-Title mb-2'>Rifandi Yusuf</h1>
