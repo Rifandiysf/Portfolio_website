@@ -9,7 +9,7 @@ const Sidebar = () => {
     setDarkMode(!darkMode);
   }
   return (
-    <aside className={`${hide ? 'translate-x-[-100px]' : 'translate-x-[0px]'} ${darkMode && 'dark'} flex justify-between items-center flex-col fixed top-0 left-0 z-10 min-h-screen w-[100px] p-10 bg-Body dark:bg-slate-950 border-r-[1px] border-solid border-slate-950/5 shadow-lg`}>
+    <aside className={`${hide ? 'translate-x-[-100px]' : 'translate-x-[0px]'} ${darkMode && 'dark'} flex justify-between items-center flex-col fixed top-0 left-0 z-10 min-h-dvh w-[100px] p-10 bg-Body dark:bg-slate-950 border-r-[1px] border-solid border-slate-950/5 shadow-lg`}>
         <a href="#profile" className={`${hide && 'hidden'} bg-Container dark:bg-slate-800 p-3 rounded-lg shadow-sm`}>
             <h1 className="font-extrabold"><span className="text-Primary">R</span>y.</h1>
         </a>
