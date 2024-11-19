@@ -1,5 +1,4 @@
 import Sidebar from './components/Layout/Sidebar'
-import { useState } from 'react'
 import Profiles from './components/Pages/Profiles'
 import About from './components/Pages/About'
 import Skills from './components/Pages/Skills'
@@ -8,12 +7,10 @@ import Contact from './components/Pages/Contact'
 import Footer from './components/Layout/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Sidebar/>
-      <main className='ml-[110px] phone:ml-0 laptop:ml-[110px]'>
+      <main className='laptop:ml-[110px]'>
         <Profiles/>
         <About/>
         <Skills/>

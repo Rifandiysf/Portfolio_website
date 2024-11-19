@@ -1,5 +1,5 @@
 import { ArrowRight2, Instagram } from 'iconsax-react'
-import Picture from '../../assets/avatar-2.svg'
+import Picture from '../../assets/imgProfile.jpeg'
 import { Github, Linkedin} from 'lucide-react'
 import SvgProfile from '../svg/SvgProfile'
 import Aos from 'aos'
@@ -11,9 +11,9 @@ const Profiles = () => {
     Aos.init();
   }, [])
   return (
-    <section className="flex justify-center items-center relative min-h-screen" id='#profile'>
-      <div className='max-w-[540px] flex flex-col justify-center items-center'>
-        <img src={Picture} alt='Profile Picture' className='mb-2'/>
+    <section className="flex justify-center items-center relative min-h-screen w-full" id='profile'>
+      <div className='w-full flex flex-col justify-center items-center'>
+          <img src={Picture} alt='Profile Picture' className='mb-2 rounded-full w-[150px]'/>
         <h1 className='font-extrabold text-2xl text-Title mb-2'>Rifandi Yusuf</h1>
         <span className='font-semibold mb-2'>Junior Front-end Developer</span>
         <div className='flex flex-row gap-2.5 mb-2'>

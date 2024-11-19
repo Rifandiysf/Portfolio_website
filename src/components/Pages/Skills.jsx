@@ -10,7 +10,7 @@ const Skills = () => {
     Aos.init
   }, [])
   return (
-    <section className="flex flex-col p-10 min-h-screen" id="#skills">
+    <section className="flex flex-col p-10 min-h-screen w-full" id="skills">
       <h1 className="font-extrabold text-Title text-2xl mb-5 phone:text-xl laptop:text-2xl" data-aos="fade-right" data-aos-easing="ease-in-sine">Skills</h1>
         <div className='flex flex-col justify-center items-center mt-10'>
           <h2 className='mb-5 text-Title font-bold text-2xl phone:text-xl laptop:text-2xl' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300">Soft and Hard Skill</h2>

@@ -1,7 +1,7 @@
 
 const SvgProfile = () => {
   return (
-    <div className="absolute left-0 top-0 h-full w-full z-[-1]">
+    <div className="absolute left-0 top-0 min-h-screen w-full z-[-1]">
       <svg 
       width={50}
       height={50}

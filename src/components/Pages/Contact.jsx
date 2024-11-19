@@ -9,7 +9,7 @@ const Contact = () => {
     Aos.init
   }, [])
   return (
-    <section className="flex flex-col p-10" id="#contact">
+    <section className="flex flex-col p-10" id="contact">
       <h1 className='font-extrabold text-Title text-2xl mb-5 phone:text-xl laptop:text-2xl' data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" >Get In Touch</h1>
       <div className="flex justify-between items-center gap-5 phone:flex-col tablet:flex-row">
         <div>
