@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Sidebar/>
-      <main className='laptop:ml-[110px]'>
+      <main className='flex flex-col items-center laptop:ml-[110px]'>
         <Profiles/>
         <About/>
         <Skills/>

@@ -7,7 +7,7 @@ const About = () => {
     Aos.init()
   }, [])
   return (
-    <section className='flex flex-col p-10 min-h-screen w-full' id='about'>
+    <section className='flex flex-col p-10 min-h-screen ' id='about'>
       <h1 className='font-extrabold text-Title text-2xl mb-5 phone:text-xl laptop:text-2xl' data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">About Me</h1>
       <div className='grid grid-cols-2 justify-center items-center w-full h-[540px] phone:grid-cols-1 tablet:grid-cols-2'>
         <div className='flex justify-center items-center' data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
